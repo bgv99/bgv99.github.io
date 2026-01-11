@@ -1,7 +1,8 @@
+/* A theme switcher can be added. */
 :root {
-  --bg: #0a0a0a;
-  --card: #151515;
-  --text: #eaeaea;
+  --bg: #ffffff;
+  --card: #eeeeee;
+  --text: #505050;
 }
 
 * {
