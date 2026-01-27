@@ -125,11 +125,6 @@ footer a:hover { opacity: 0.5; }
 
 .navbar a:hover { opacity: 0.5; }
 
-@media (max-width: 600px) {
-  body { padding-left: 24px; padding-top: 64px; }
-  .title { font-size: 70px; }
-}
-
 .gallery {
   width: 100%;
   display: flex;
@@ -143,3 +138,10 @@ footer a:hover { opacity: 0.5; }
 }
 
 img { user-select: none; }
+
+@media (max-width: 600px) {
+  body { padding-left: 24px; padding-top: 64px; }
+  .title { font-size: 70px; }
+  .gallery { width: 100%; display: flex; justify-content: left; }
+  .gallery-items { display: grid; grid-template-columns: repeat(2, 130px); gap: 10px; }
+}
