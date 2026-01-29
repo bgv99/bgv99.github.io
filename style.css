@@ -133,8 +133,10 @@ footer a:hover { opacity: 0.5; }
 
 .gallery-items {
   display: grid;
-  grid-template-columns: repeat(5, 130px);
+  grid-template-columns: repeat(auto-fit, minmax(130px, 130px));
   gap: 10px;
+  justify-content: center;
+  width: 100%;
 }
 
 img { user-select: none; }
@@ -143,5 +145,4 @@ img { user-select: none; }
   body { padding-left: 24px; padding-top: 64px; }
   .title { font-size: 70px; }
   .gallery { width: 100%; display: flex; justify-content: left; }
-  .gallery-items { display: grid; grid-template-columns: repeat(2, 130px); gap: 10px; }
 }
